@@ -45,7 +45,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 	case LSTR:
         if (record->event.pressed) {
             // when keycode REFWKND is pressed
-            SEND_STRING("H3althc@reisfun4");
+            SEND_STRING("");
         } else {
             // when keycode REFWKND is released
         }
